@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { GlobalMessageComponent } from './ui/message/global-message.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,GlobalMessageComponent],
+  imports: [RouterModule], // Importa o RouterModule para permitir o uso de <router-outlet> e routerLink
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'contas';
+  title = 'memorial-professor-grossi';
 }

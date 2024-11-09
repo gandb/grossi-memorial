@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run build-prod && npm run start-prod",
-    "start-local": "ng serve",
+    "start": "ng serve",
     "start-prod": "serve -s ./dist/contas/browser/",
     "build-prod": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",

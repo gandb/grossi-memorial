@@ -1,5 +1,49 @@
+<header class="bg-dark text-white py-4">
+  <div class="container">
+    <h1 class="text-center">Memorial Professor Grossi</h1>
+    <nav class="mt-4">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/biography">Biografia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/academic-legacy">Legado Acadêmico</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/photo-gallery">Galeria de Fotos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/testimonials">Depoimentos e Homenagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/achievements">Prêmios e Conquistas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/personal-page">Página Pessoal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/quotes">Frases e Reflexões</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/memory-events">Eventos em Memória</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLink="/contact">Contato e Contribuições</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<div>
-  <global-messages></global-messages>
-  <router-outlet />
-</div>
+<main class="container my-5 bg-cover bg-center " style="background-image: url('/images/background.png');">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="bg-dark text-white py-3">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2024 Memorial Professor Grossi</p>
+  </div>
+</footer>
